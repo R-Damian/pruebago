@@ -22,4 +22,4 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=R-Damian_pruebago
-            -Dsonar.go.coverage.reportPaths=coverage.out
+            -Dsonar.go.coverage.reportPaths=**/coverage.out
