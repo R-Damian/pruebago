@@ -1,0 +1,7 @@
+{"Time":"2022-01-12T14:37:48.153849-03:00","Action":"run","Package":"github.com/customer-experience/go-template-repository","Test":"TestRunMain"}
+{"Time":"2022-01-12T14:37:48.1573576-03:00","Action":"output","Package":"github.com/customer-experience/go-template-repository","Test":"TestRunMain","Output":"=== RUN   TestRunMain\n"}
+{"Time":"2022-01-12T14:37:48.1573576-03:00","Action":"output","Package":"github.com/customer-experience/go-template-repository","Test":"TestRunMain","Output":"--- PASS: TestRunMain (0.00s)\n"}
+{"Time":"2022-01-12T14:37:48.1573576-03:00","Action":"pass","Package":"github.com/customer-experience/go-template-repository","Test":"TestRunMain","Elapsed":0}
+{"Time":"2022-01-12T14:37:48.1573576-03:00","Action":"output","Package":"github.com/customer-experience/go-template-repository","Output":"PASS\n"}
+{"Time":"2022-01-12T14:37:48.1773562-03:00","Action":"output","Package":"github.com/customer-experience/go-template-repository","Output":"ok  \tgithub.com/customer-experience/go-template-repository\t0.655s\n"}
+{"Time":"2022-01-12T14:37:48.1773562-03:00","Action":"pass","Package":"github.com/customer-experience/go-template-repository","Elapsed":0.655}
