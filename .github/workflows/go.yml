@@ -10,6 +10,8 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+      - name: coverage
+        run: go test -coverprofile=coverage.out ./...
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
@@ -20,3 +22,4 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=R-Damian_pruebago
+            -Dsonar.go.coverage.reportPaths=coverage.out
