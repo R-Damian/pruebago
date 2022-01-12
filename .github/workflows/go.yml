@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: coverage
-        run: cat report.json
+        run: ls
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
