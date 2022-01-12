@@ -10,11 +10,11 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: coverage
-        run: ls
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+      - name: coverage
+        run: ls
       - uses: sonarsource/sonarqube-scan-action@master
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
