@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: coverage
-        run: go test -coverprofile=coverage.out ./...
+        run: cat report.json
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
